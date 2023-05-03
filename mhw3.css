@@ -1,0 +1,228 @@
+
+a {
+    cursor : pointer;
+    font-family: Impact, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    color: white;
+    text-align: right;
+    
+}
+a:hover{
+  color:red;
+}
+a.button {
+    padding: 5px 5px;
+    border: 2px solid red;
+    border-radius: 50px;
+    font-size: 28px;
+  }
+
+  a.button:hover {
+    background-color:red;
+    color:white;
+  }
+body {
+    color: rgba(26, 26, 26, .7);
+    font-family: 'Alkatra', serif;
+    margin: 0;
+    width: 100%;
+  }
+
+  #details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  #details .MovieTitle{
+    font-family: 'Times New Roman',  serif;
+    font-size: 28px;
+    font-style:normal ;
+    text-align: left;
+    color: rgb(0, 49, 118);
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+
+  #details img {
+    width: 100%;
+    height: 90%;
+  }
+  
+  #details div{
+    width: 66.67%;
+    padding: 40px;
+    
+   margin-bottom: 120px;
+  }
+
+  footer {
+   background-color:  rgba(210, 95, 95, 0.7);
+   color: rgba(15, 15, 65, .8);
+   padding: 45px;
+   text-align: center;
+   font-style: normal;
+   font-weight: 400;
+  }
+  footer address{
+font-family:  Helvetica, sans-serif;
+color: black;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 3px;
+  }
+  footer p{
+    font-family: Arial, sans-serif;
+    color: rgb(28, 26, 26);
+    font-size: 10px;
+  }
+  .info{
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI',  sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #menu {
+    display: none;
+    }
+    
+    #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    }
+
+.movies{
+  background-color:#cfcfcf;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.movies div{
+  background-color: rgb(75, 86, 27);
+  
+}
+
+.movies img {
+  border: 13px solid black;
+  
+}
+.movies h1 {
+  background-color: gold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
+  width: 100%;
+}
+.movies span{
+  color:black;
+  background-color: gold;
+  width: 100%;
+}
+ #overlay{
+  background-color: rgba(0, 0, 0, .3);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+ }
+#profile{
+  flex-direction: column;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -50px
+  
+}
+
+#profile img{
+border-radius: 100px;
+border: 5px solid red;
+width: 100px;
+height: 100px;
+
+}
+header {
+
+    color : white;
+    background-image:url(https://www.cnet.com/a/img/resize/74dca581cc13e6ad51a1aeccfb9398fcf44d622d/hub/2023/01/19/fe9ab4fa-d9e5-45bf-b565-fdc0d1965522/gettyimages-1215025873.jpg?auto=webp&fit=crop&height=675&width=1200);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+    height: 500px;
+    width: 100%;
+    position: relative;
+  
+}
+
+  header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    padding: 40px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.hidden{
+  display: none;
+}
+
+
+
+#logo {
+  color: azure;
+  font-family: 'Impact',  sans-serif;
+  font-size: 56px;
+  font-weight: normal;
+  text-align: left;
+}
+#logo em {
+   color: red; 
+}
+
+
+#descrizione{
+  color: rgb(71, 5, 5);
+  font-family:'Inter',sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+section{
+  
+  margin-top: 60px;
+  
+}
+
+@media (max-width: 500px) {
+  #links {
+  display: none;
+  }
+  
+  #menu
+  {
+  display: block;
+  }
+  }
